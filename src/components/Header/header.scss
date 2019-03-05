@@ -1,13 +1,17 @@
 header{
     background-color: #ff4560;
-    padding: 0 60px;
+    padding: 0 60px 30px 60px;
     .top-bar{
         display: flex;
         align-items: center;
         flex-wrap: nowrap;
 
+        img{
+            margin-bottom: 0px;
+        }
+
         .logo{
-            flex-basis: 10%;
+            flex-basis: 8%;
 
         }
 
@@ -30,6 +34,49 @@ header{
 
             .member{
                 padding-left: 15px;
+            }
+        }
+    }
+    .site-menu{
+        padding: 5px 0px;
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+
+        [aria-current="page"]{
+            border-bottom: 2px solid white;
+            padding-bottom: 10px;
+        }
+
+        .menu-button{
+            flex-basis: 5%;
+            .fa{
+                color: white;
+                font-size: 28px;
+            }
+        }
+        .menu-items{
+            flex-basis: 65%;
+
+            .primary-list{
+                display: flex;
+                justify-content: space-between;
+                list-style: none;
+                align-items: flex-end;
+                margin: 0;
+                padding: 0;
+
+                li{
+                    margin-bottom: 0;
+                    a{
+                        color: white;
+                        font-weight: bold;
+
+                        &:hover{
+                            text-decoration: none;
+                        }
+                    }
+                }
             }
         }
     }

@@ -9,6 +9,7 @@ import React from "react"
 import PropTypes from "prop-types"
 
 import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css"
+import 'font-awesome/css/font-awesome.min.css';
 import "./layout.css"
 import "../../scss/main.scss";
 
