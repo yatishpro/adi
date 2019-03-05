@@ -1,0 +1,36 @@
+header{
+    background-color: #ff4560;
+    padding: 0 60px;
+    .top-bar{
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+
+        .logo{
+            flex-basis: 10%;
+
+        }
+
+        .top-bar-text{
+            margin: 0 30px;
+            flex-basis: 50%;
+            align-items: flex-start;
+
+            .title{
+                color: white;
+                text-transform: uppercase;
+                font-size: 20px;
+            }
+        }
+
+        .minister-list{
+            flex-basis: 40%;
+            display: flex;
+            justify-content: flex-end;
+
+            .member{
+                padding-left: 15px;
+            }
+        }
+    }
+}

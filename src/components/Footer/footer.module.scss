@@ -1,0 +1,21 @@
+Footer{
+    border-top: 2px solid black;
+
+    .informationText{
+        background-color: black;
+        
+        color: #fff;
+        text-align: center;
+        padding: 5px 0px;
+    }
+    .footerLogos{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 0px;
+
+        img{
+            margin-bottom: 0px;
+        }
+    }
+}
