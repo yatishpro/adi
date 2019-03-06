@@ -1,0 +1,32 @@
+.latestNews{
+    padding: 0px 60px;
+    display: flex;
+    
+    .latest-news-head{
+        flex-basis: 15%;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        .title{
+            margin-bottom: 0;
+            color: white;
+            text-transform: uppercase;
+            padding: 5px 0px;
+            font-size: 20px;
+        }
+    }
+    .latest-news-list{
+        flex-basis: 90%;
+        display: flex;
+        align-items: center;
+
+        marquee{
+            margin: 0 20px;
+            span{
+                margin-right: 50px;
+            }
+        }
+    }
+}

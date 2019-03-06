@@ -1,11 +1,13 @@
 import React from 'react'
-import Layout from '../components/Layout/layout'
+import Auxs from '../hoc/Auxs/auxs'
+import HeaderBottom from '../components/Header-Bottom/headerBottom'
 
 const CircularsPage = () => {
     return(
-        <Layout>
+        <Auxs>
+            <HeaderBottom></HeaderBottom>
             <h2>Circulars</h2>
-        </Layout>
+        </Auxs>
     )
 }
 

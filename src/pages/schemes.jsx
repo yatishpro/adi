@@ -1,11 +1,11 @@
 import React from 'react'
-import Layout from '../components/Layout/layout'
+import Auxs from '../hoc/Auxs/auxs'
 
 const SchemesPage = () => {
     return(
-        <Layout>
+        <Auxs>
             <h2>Schemes Page</h2>
-        </Layout>
+        </Auxs>
     )
 }
 
