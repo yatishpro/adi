@@ -5,6 +5,8 @@ import logo from '../../images/logo.png'
 import imbrambedkar from '../../images/Dr.B-R-Ambedkar.png'
 import imminister from '../../images/misister.png'
 import imhdk from '../../images/H.D.Kumaraswamy-CM.png'
+import imka from '../../images/ka.svg'
+import imen from '../../images/en.svg'
 
 
 class Header extends Component {
@@ -69,7 +71,12 @@ class Header extends Component {
                         </div>
                     </div>
                     <div className="language-select">
-                    
+                        <div className="kannada" onClick={() => this.props.languageHandler('kannada')}>
+                           <img src={imka} alt=""/>
+                        </div>
+                        <div className="english" onClick={() => this.props.languageHandler('english')}>
+                            <img src={imen} alt=""/>
+                        </div>
                     </div>
                 </div>
             </header>

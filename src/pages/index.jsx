@@ -6,53 +6,111 @@ import SEO from "../components/Seo/seo"
 import PageTitle from "../components/Page-Title/pageTitle"
 import vidhansoudha from '../images/vidhanasouda.png'
 
-import {LanguageConsumer} from '../Context/contex'
+import { LanguageConsumer } from '../Context/context'
 
 
-const IndexPage = () => (
 
-  <Auxs>
+const IndexPage = (props) => {
 
-    <LanguageConsumer>{context => <p>{context}</p> }</LanguageConsumer>
 
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
 
-    <PageTitle>About Adijambava</PageTitle>
+  function EnglishTemplate(){
+    return(
+      <Auxs>
 
-    <main className="home-page">
-      <div className="container">
-        <div className="row">
+        <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+        
+        <PageTitle>About Adijambava</PageTitle>
 
-          <div className="col-md-12">
-            <div className="about-adijambava">
-              <div className="sec-space-small"></div>
-              <p>
-              Dr. B R Ambedkar Development Corporation executing the project / program anustanagolisalu "adijambava Development Corporation of Karnataka" was passed to establish the order. The corporation's registration and other initiatives have been completed and the Hon'ble Chief Ministers will be launching a new corporation on 17-01-2019.
-              </p>
-              <p>
-              The Karnataka Adi Jambava Development Corporation will exclusively implement Government / Schedule Schemes / programs for comprehensive development of the Scheduled Castes and Scheduled Tribes in the Scheduled Castes.
-              </p>
-              <p>
-              The action plan for 2018-19 was sanctioned by the Ministry of Social Welfare, which has been allocated Rs 296.50 crore. The constituency targeted is based on population based on grants.The corporation hopes that the relatives of the Adiampa community must consolidate the new corporation projects and become economically and socially competitive.
-              </p>
-              <p>
-              ರಾಜ್ಯ ಸರ್ಕಾರ ಸಮಾಜ ಕಲ್ಯಾಣ ಇಲಾಖೆ ವತಿಯಿಂದ ಪರಿಶಿಷ್ಟ ಜಾತಿ/ಪರಿಶಿಷ್ಟ ಪಂಗಡ ಸಮುದಾಯದ ಯುವಕ/ಯುವತಿಯರ ಸಾಮಾಜಿಕ ಹಾಗೂ ಆರ್ಥಿಕ ಅಭಿವೃದ್ಧಿಯ ಮಹತ್ವಾಕಾಂಕ್ಷೆಯೊಂದಿಗೆ ದೇಶದಲ್ಲಿಯೇ ಬೃಹತ್ ಉದ್ಯಮಶೀಲತೆ ಸಾಧಿಸುವ ಸಮೃದ್ಧಿ ಯೋಜನೆಯನ್ನು ಜಾರಿಗೆ ತಂದಿದೆ. ಪ್ರತಿಷ್ಠಿತ ಬ್ರಾಂಡೆಡ್ ಕಂಪೆನಿಗಳು ಹಾಗೂ ಕಾರ್ಪೋರೆಟ್ ಉದ್ದಿಮೆಗಳ ಸಹಭಾಗಿತ್ವದಲ್ಲಿ ಕೈಗಾರಿಕಾ ತರಬೇತಿ, ವ್ಯಕ್ತಿತ್ವ ವಿಕಸನ, ಸಂವಹನ ತರಬೇತಿ. ಚಿಲ್ಲರೆ ಮಳಿಗೆಗಳ ನಿರ್ವಹಣೆ, ತೆರಿಗೆ ನೀತಿ ಮತ್ತು ಜಿ.ಎಸ್.ಟಿ, ದಾಸ್ತಾನು ನಿರ್ವಹಣೆಗಳ ಬಗ್ಗೆ ತರಬೇತಿ ನೀಡಲಿದೆ. ಸರ್ಕಾರವು ಮುಂದಿನ 3 ವರ್ಷದಲ್ಲಿ 2000 ಕೋಟಿ ರೂ ವೆಚ್ಚದಲ್ಲಿ ಗ್ರಾಮೀಣ ಪ್ರದೇಶ, ಎರಡನೇ ಹಾಗೂ ಮೂರನೇ ಶ್ರೇಣಿಯ ನಗರಗಳಲ್ಲಿ 25000 ಸ್ವಯಂ ಉದ್ಯೋಗ ಸೃಷ್ಟಿಸುವ ಗುರಿ ಹೊಂದಿದೆ.
-              </p>
-            </div>
+        <main className="home-page">
+          <div className="container">
+            <div className="row">
 
-            <div className="col-md-12">
-              <div className="vidhansouha">
-                <img src={vidhansoudha} alt=""/>
-                <div className="sec-space"></div>
+              <div className="col-md-12">
+                <div className="about-adijambava">
+                  <div className="sec-space-small"></div>
+                  <p>
+                  Dr. B R Ambedkar Development Corporation executing the project / program anustanagolisalu "adijambava Development Corporation of Karnataka" was passed to establish the order. The corporation's registration and other initiatives have been completed and the Hon'ble Chief Ministers will be launching a new corporation on 17-01-2019.
+                  </p>
+                  <p>
+                  The Karnataka Adi Jambava Development Corporation will exclusively implement Government / Schedule Schemes / programs for comprehensive development of the Scheduled Castes and Scheduled Tribes in the Scheduled Castes.
+                  </p>
+                  <p>
+                  The action plan for 2018-19 was sanctioned by the Ministry of Social Welfare, which has been allocated Rs 296.50 crore. The constituency targeted is based on population based on grants.The corporation hopes that the relatives of the Adiampa community must consolidate the new corporation projects and become economically and socially competitive.
+                  </p>
+                  <p>
+                  ರಾಜ್ಯ ಸರ್ಕಾರ ಸಮಾಜ ಕಲ್ಯಾಣ ಇಲಾಖೆ ವತಿಯಿಂದ ಪರಿಶಿಷ್ಟ ಜಾತಿ/ಪರಿಶಿಷ್ಟ ಪಂಗಡ ಸಮುದಾಯದ ಯುವಕ/ಯುವತಿಯರ ಸಾಮಾಜಿಕ ಹಾಗೂ ಆರ್ಥಿಕ ಅಭಿವೃದ್ಧಿಯ ಮಹತ್ವಾಕಾಂಕ್ಷೆಯೊಂದಿಗೆ ದೇಶದಲ್ಲಿಯೇ ಬೃಹತ್ ಉದ್ಯಮಶೀಲತೆ ಸಾಧಿಸುವ ಸಮೃದ್ಧಿ ಯೋಜನೆಯನ್ನು ಜಾರಿಗೆ ತಂದಿದೆ. ಪ್ರತಿಷ್ಠಿತ ಬ್ರಾಂಡೆಡ್ ಕಂಪೆನಿಗಳು ಹಾಗೂ ಕಾರ್ಪೋರೆಟ್ ಉದ್ದಿಮೆಗಳ ಸಹಭಾಗಿತ್ವದಲ್ಲಿ ಕೈಗಾರಿಕಾ ತರಬೇತಿ, ವ್ಯಕ್ತಿತ್ವ ವಿಕಸನ, ಸಂವಹನ ತರಬೇತಿ. ಚಿಲ್ಲರೆ ಮಳಿಗೆಗಳ ನಿರ್ವಹಣೆ, ತೆರಿಗೆ ನೀತಿ ಮತ್ತು ಜಿ.ಎಸ್.ಟಿ, ದಾಸ್ತಾನು ನಿರ್ವಹಣೆಗಳ ಬಗ್ಗೆ ತರಬೇತಿ ನೀಡಲಿದೆ. ಸರ್ಕಾರವು ಮುಂದಿನ 3 ವರ್ಷದಲ್ಲಿ 2000 ಕೋಟಿ ರೂ ವೆಚ್ಚದಲ್ಲಿ ಗ್ರಾಮೀಣ ಪ್ರದೇಶ, ಎರಡನೇ ಹಾಗೂ ಮೂರನೇ ಶ್ರೇಣಿಯ ನಗರಗಳಲ್ಲಿ 25000 ಸ್ವಯಂ ಉದ್ಯೋಗ ಸೃಷ್ಟಿಸುವ ಗುರಿ ಹೊಂದಿದೆ.
+                  </p>
+                </div>
+                <div className="col-md-12">
+                  <div className="vidhansouha">
+                    <img src={vidhansoudha} alt=""/>
+                    <div className="sec-space"></div>
+                  </div>
+                </div>
+
               </div>
             </div>
-
           </div>
-        </div>
-      </div>
-    </main>
-    
-  </Auxs>
-)
+        </main>
+      
+      </Auxs>
+    )
+  }
+
+  function KannadaTemplate(){
+    return(
+      <Auxs>
+
+        <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+        
+        <PageTitle>ಅದಿಜಂಬವ ಬಗ್ಗೆ</PageTitle>
+
+        <main className="home-page">
+          <div className="container">
+            <div className="row">
+
+              <div className="col-md-12">
+                <div className="about-adijambava">
+                  <div className="sec-space-small"></div>
+                  <p>
+                  ರಾಜ್ಯ ಸರ್ಕಾರ ಸಮಾಜ ಕಲ್ಯಾಣ ಇಲಾಖೆ ವತಿಯಿಂದ ಪರಿಶಿಷ್ಟ ಜಾತಿ/ಪರಿಶಿಷ್ಟ ಪಂಗಡ ಸಮುದಾಯದ ಯುವಕ/ಯುವತಿಯರ ಸಾಮಾಜಿಕ ಹಾಗೂ ಆರ್ಥಿಕ ಅಭಿವೃದ್ಧಿಯ ಮಹತ್ವಾಕಾಂಕ್ಷೆಯೊಂದಿಗೆ ದೇಶದಲ್ಲಿಯೇ ಬೃಹತ್ ಉದ್ಯಮಶೀಲತೆ ಸಾಧಿಸುವ ಸಮೃದ್ಧಿ ಯೋಜನೆಯನ್ನು ಜಾರಿಗೆ ತಂದಿದೆ. ಪ್ರತಿಷ್ಠಿತ ಬ್ರಾಂಡೆಡ್ ಕಂಪೆನಿಗಳು ಹಾಗೂ ಕಾರ್ಪೋರೆಟ್ ಉದ್ದಿಮೆಗಳ ಸಹಭಾಗಿತ್ವದಲ್ಲಿ ಕೈಗಾರಿಕಾ ತರಬೇತಿ, ವ್ಯಕ್ತಿತ್ವ ವಿಕಸನ, ಸಂವಹನ ತರಬೇತಿ. ಚಿಲ್ಲರೆ ಮಳಿಗೆಗಳ ನಿರ್ವಹಣೆ, ತೆರಿಗೆ ನೀತಿ ಮತ್ತು ಜಿ.ಎಸ್.ಟಿ, ದಾಸ್ತಾನು ನಿರ್ವಹಣೆಗಳ ಬಗ್ಗೆ ತರಬೇತಿ ನೀಡಲಿದೆ. ಸರ್ಕಾರವು ಮುಂದಿನ 3 ವರ್ಷದಲ್ಲಿ 2000 ಕೋಟಿ ರೂ ವೆಚ್ಚದಲ್ಲಿ ಗ್ರಾಮೀಣ ಪ್ರದೇಶ, ಎರಡನೇ ಹಾಗೂ ಮೂರನೇ ಶ್ರೇಣಿಯ ನಗರಗಳಲ್ಲಿ 25000 ಸ್ವಯಂ ಉದ್ಯೋಗ ಸೃಷ್ಟಿಸುವ ಗುರಿ ಹೊಂದಿದೆ.
+                  </p>
+                </div>
+                <div className="col-md-12">
+                  <div className="vidhansouha">
+                    <img src={vidhansoudha} alt=""/>
+                    <div className="sec-space"></div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </main>
+      
+      </Auxs>
+    )
+  }
+
+  function Template(){
+    return(
+        <LanguageConsumer>
+          {(context) => (
+          (context.language == 'kannada')? <KannadaTemplate/> : <EnglishTemplate/>
+          )}
+      </LanguageConsumer>
+    )
+  }
+  
+
+
+  return (
+      
+       <Template/>
+
+  );
+}
+
 
 export default IndexPage

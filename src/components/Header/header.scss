@@ -39,46 +39,77 @@ header{
             }
         }
     }
-    .site-menu{
-        padding: 5px 0px;
+    .menu-bar{
         display: flex;
         align-items: center;
-        flex-wrap: nowrap;
 
-        [aria-current="page"]{
-            border-bottom: 2px solid white;
-            padding-bottom: 10px;
-        }
-
-        .menu-button{
-            cursor: pointer;
-            flex-basis: 5%;
-            .fa{
-                color: white;
-                font-size: 28px;
+        .site-menu{
+            padding: 5px 0px;
+            display: flex;
+            align-items: center;
+            flex-wrap: nowrap;
+            flex-basis: 80%;
+    
+            [aria-current="page"]{
+                border-bottom: 2px solid white;
+                padding-bottom: 10px;
             }
-        }
-        .menu-items{
-            flex-basis: 65%;
-
-            .primary-list{
-                display: flex;
-                justify-content: space-between;
-                list-style: none;
-                align-items: flex-end;
-                margin: 0;
-                padding: 0;
-
-                li{
-                    margin-bottom: 0;
-                    a{
-                        color: white;
-                        font-weight: bold;
-
-                        &:hover{
-                            text-decoration: none;
+    
+            .menu-button{
+                cursor: pointer;
+                flex-basis: 5%;
+                .fa{
+                    color: white;
+                    font-size: 28px;
+                }
+            }
+            .menu-items{
+                flex-basis: 65%;
+    
+                .primary-list{
+                    display: flex;
+                    justify-content: space-between;
+                    list-style: none;
+                    align-items: flex-end;
+                    margin: 0;
+                    padding: 0;
+    
+                    li{
+                        margin-bottom: 0;
+                        a{
+                            color: white;
+                            font-weight: bold;
+    
+                            &:hover{
+                                text-decoration: none;
+                            }
                         }
                     }
+                }
+            } 
+        }
+        .language-select{
+            display: flex;
+            flex-basis: 100px;
+            justify-content: flex-start;
+            align-items: center;
+            
+            .kannada{
+                width: 80%;
+                margin: 5px;
+                cursor: pointer;
+                img{
+                    width: 100%;
+                    margin-bottom: 0px;
+                }
+            }
+            .english{
+                width: 80%;
+                margin: 5px;
+                cursor: pointer;
+                img{
+                    width: 100%;
+                    margin-bottom: 0px;
                 }
             }
         }

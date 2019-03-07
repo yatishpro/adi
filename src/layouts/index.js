@@ -18,7 +18,7 @@ import Header from "../components/Header/header"
 import Footer from "../components/Footer/footer"
 import LatestNews from '../components/Latest-News/latestNews'
 
-import { LanguageProvider, LanguageConsumer } from "../Context/contex"
+import { LanguageProvider} from "../Context/context"
 
 
 class Layout extends Component {
@@ -28,6 +28,16 @@ class Layout extends Component {
     language: 'english'
 };
 
+componentWillMount() {
+  var language = localStorage.getItem('lang');
+  if(language === null){
+    localStorage.setItem('lang', 'english');
+  } else{
+    this.setState({
+      language: language
+    })
+  }
+}
 
 
 menuHandler = () => {
@@ -36,16 +46,21 @@ menuHandler = () => {
   })
 };
 
-languageChangeHandler = () => {
+languageChangeHandler = (lang) => {
   this.setState({
-    language: (this.state.language == 'english') ? 'kannada' : 'english'
+    language: lang
   })
+
+  var language = localStorage.getItem('lang');
+  if(language !== null){
+    localStorage.setItem('lang', lang);
+  }
 }
 
 
   render(){
     return(
-      <LanguageProvider value={this.state.language}>
+      <LanguageProvider value={{ language: this.state.language}}>
 
       <Header menu={this.state.menu} languageHandler={this.languageChangeHandler} menuHandler={this.menuHandler} />
       <LatestNews/>
