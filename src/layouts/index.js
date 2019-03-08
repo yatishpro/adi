@@ -29,14 +29,17 @@ class Layout extends Component {
 };
 
 componentWillMount() {
-  
   if(typeof window  !== 'undefined'){
-    window.localStorage.setItem('lang', 'english');
-  } else{
-    this.setState({
-      language: language
-    })
+      var language = window.localStorage.getItem('lang');
+    if(language === null){
+      window.localStorage.setItem('lang', 'english');
+    } else{
+      this.setState({
+        language: language
+      })
+    }
   }
+  
 }
 
 
