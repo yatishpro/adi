@@ -11,3 +11,40 @@
         }
     }
 }
+
+.main-slider{
+    .carousel-caption{
+        top: 20%;
+        left: 10%;
+        right: unset;
+
+        h1{
+            font-size: 50px;
+            line-height: 100px;
+        }
+    }
+
+    .carousel-indicators{
+        top:70%;
+            right:5%;
+            left:unset;
+            margin-right: unset;
+            .active{
+                background-color: white;
+            }
+        li{
+            background-color: red;
+            opacity: unset;
+            width: 13px;
+            height: 13px;
+            border: 2px solid red;
+        }
+    }
+
+    .carousel-control-prev{
+        display: none;
+    }
+    .carousel-control-next{
+        display: none;   
+    }
+}

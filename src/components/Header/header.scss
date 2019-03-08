@@ -2,7 +2,7 @@ header{
     background-image: url('../../images/header.svg');
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 0 60px 30px 60px;
+    padding: 0 60px 20px 60px;
     .top-bar{
         display: flex;
         align-items: center;
@@ -64,7 +64,7 @@ header{
                 }
             }
             .menu-items{
-                flex-basis: 65%;
+                flex-basis: 80%;
     
                 .primary-list{
                     display: flex;
@@ -93,23 +93,38 @@ header{
             flex-basis: 100px;
             justify-content: flex-start;
             align-items: center;
-            
+            .active{
+                background-color: #ba3f2f;
+            }
             .kannada{
-                width: 80%;
+                width: 43%;
                 margin: 5px;
                 cursor: pointer;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding:1px 10px;
+                border: 1px solid white;
+                
+                
                 img{
                     width: 100%;
                     margin-bottom: 0px;
                 }
             }
             .english{
-                width: 80%;
+                width: 50%;
                 margin: 5px;
-                cursor: pointer;
+                cursor: pointer; 
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 1px solid white;
+
                 img{
                     width: 100%;
                     margin-bottom: 0px;
+                    padding: 2px;
                 }
             }
         }

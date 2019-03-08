@@ -62,7 +62,7 @@ languageChangeHandler = (lang) => {
     return(
       <LanguageProvider value={{ language: this.state.language}}>
 
-      <Header menu={this.state.menu} languageHandler={this.languageChangeHandler} menuHandler={this.menuHandler} />
+      <Header lang={this.state.language} menu={this.state.menu} languageHandler={this.languageChangeHandler} menuHandler={this.menuHandler} />
       <LatestNews/>
       <main>{this.props.children}</main>
       <Footer/>

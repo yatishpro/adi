@@ -1,0 +1,87 @@
+.gallerySwitch{
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+
+        .photoSwitch{
+            margin: 5px;   
+            .button{
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: 2px solid #ef4c54;
+                border-radius: 5px;
+                padding: 5px 20px;
+                color: #ef4c54;
+                
+                &:hover{
+                    text-decoration: none;
+                }
+
+               
+
+                i{
+                    color: #ef4c54;
+                    font-size: 24px;
+                }
+
+                p{
+                    margin-bottom: 0px;
+                    padding: 0 20px;
+                }
+            }
+            .active{
+                background-color: #ef4c54;
+                color: white;
+
+                i{
+                    color: white !important;
+                }
+            }
+        }
+        .videoSwitch{
+            margin: 5px;   
+            .button{
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: 2px solid #ef4c54;
+                border-radius: 5px;
+                padding: 5px 20px;
+                color: #ef4c54;
+
+                &:hover{
+                    text-decoration: none;
+                }
+          
+                i{
+                    border: 1px solid #ef4c54;
+                    color: #ef4c54;
+                    padding: 4px 8px;
+                    font-size: 12px;
+                }
+
+                p{
+                    margin-bottom: 0px;
+                    padding: 0 20px;
+                }
+            }
+            .active{
+                background-color: #ef4c54;
+                color: white;
+
+                i{
+                    color: white !important;
+                    border: 1px solid white !important;
+                }
+            }
+        }
+}
+
+.gallery{
+    .gal-img{
+        width: 100%;
+    }
+}

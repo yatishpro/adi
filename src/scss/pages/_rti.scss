@@ -1,0 +1,48 @@
+.rti-content{
+    .rti-intro{
+        text-align: center;
+    }
+    .rti-form{
+        padding: 5px 5px;
+        justify-content:  center;
+        display: flex;
+        
+        a{
+            display: flex;
+            align-items: center;
+            color: black;
+            border: 1px solid #ef4c54;
+            text-align: center;
+            border-radius: 15px;
+
+            &:hover{
+                text-decoration: none;
+            }
+            
+            i{
+                border-top-left-radius: 15px;
+                border-bottom-left-radius: 15px;
+                padding: 10px 15px;
+                background-color: #ef4c54;
+                color: white;
+            }
+            p{
+                margin-bottom: 0;
+                background-color: white;
+                color: #ef4c54;
+                font-size: 14px;
+                padding: 0 10px;
+            }
+        }
+    }
+    .rti-application{
+        background-color: #ef4c54;
+
+        .title{
+            text-align: center;
+            color: white;
+            margin-bottom: 0px;
+            font-weight: normal;
+        }
+    }
+}

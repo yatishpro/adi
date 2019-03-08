@@ -47,7 +47,7 @@ class Header extends Component {
                             }}>
                             <ul className="primary-list">
                                 <li>
-                                    <Link to="/about">About</Link>
+                                    <Link to="#about">About</Link>
                                 </li>
                                 <li>
                                     <Link to="/schemes">Schemes</Link>
@@ -71,10 +71,10 @@ class Header extends Component {
                         </div>
                     </div>
                     <div className="language-select">
-                        <div className="kannada" onClick={() => this.props.languageHandler('kannada')}>
+                        <div className={this.props.lang === 'kannada' ? 'kannada active' : 'kannada' } onClick={() => this.props.languageHandler('kannada')}>
                            <img src={imka} alt=""/>
                         </div>
-                        <div className="english" onClick={() => this.props.languageHandler('english')}>
+                        <div className={this.props.lang === 'english' ? 'english active' : 'english' } onClick={() => this.props.languageHandler('english')}>
                             <img src={imen} alt=""/>
                         </div>
                     </div>
