@@ -29,8 +29,8 @@ class Layout extends Component {
 };
 
 componentWillMount() {
-  var language = window.localStorage.getItem('lang');
-  if(language === null){
+  
+  if(typeof window  !== 'undefined'){
     window.localStorage.setItem('lang', 'english');
   } else{
     this.setState({
