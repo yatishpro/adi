@@ -13,14 +13,18 @@
 }
 
 .main-slider{
+
+    background-image: url('../images/banner1.svg');
+    background-size: cover;
+
     .carousel-caption{
-        top: 20%;
-        left: 10%;
+        top: 30%;
+        left: 5%;
         right: unset;
 
         h1{
-            font-size: 50px;
-            line-height: 100px;
+            font-size: 40px;
+            line-height: 60px;
         }
     }
 

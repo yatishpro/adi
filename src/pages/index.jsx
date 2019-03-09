@@ -9,7 +9,7 @@ import videoImg from '../images/video.jpg'
 import { LanguageConsumer } from '../Context/context'
 import { Carousel } from 'react-bootstrap'
 
-import sliderOne from '../images/slider/home.png'
+import sliderOne from '../images/final.png'
 
 const IndexPage = () => {
 

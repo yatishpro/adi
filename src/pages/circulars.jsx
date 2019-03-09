@@ -27,6 +27,13 @@ const CircularsPage = () => {
                             <OrderList name="GOVT. Orders 03" url={Odthree} view="view" download="download"  />
                             <div className="sec-space-small"></div>
                         </div>
+                        <div className="col-md-6">
+                            <div className="sec-space-small"></div>
+                            <OrderList name="GOVT. Orders 01" url={Odone} view="view" download="download" />
+                            <OrderList name="GOVT. Orders 02" url={Odtwo} view="view" download="download"  />
+                            <OrderList name="GOVT. Orders 03" url={Odthree} view="view" download="download"  />
+                            <div className="sec-space-small"></div>
+                        </div>
                     </div>
                 </div>
                 <div className="sec-space"></div>
@@ -42,6 +49,13 @@ const CircularsPage = () => {
                 <PageTitle>ಆದೇಶಗಳು / ಸರ್ಕ್ಯುಲರ್ಗಳು</PageTitle>
                 <div className="container">
                     <div className="row">
+                        <div className="col-md-6">
+                            <div className="sec-space-small"></div>
+                            <OrderList name="GOVT. ಆದೇಶಗಳು 01" url={Odone} view="ನೋಟ" download="ಡೌನ್ಲೋಡ್ ಮಾಡಿ"  />
+                            <OrderList name="GOVT. ಆದೇಶಗಳು 02" url={Odtwo} view="ನೋಟ" download="ಡೌನ್ಲೋಡ್ ಮಾಡಿ"  />
+                            <OrderList name="GOVT. ಆದೇಶಗಳು 03" url={Odthree} view="ನೋಟ" download="ಡೌನ್ಲೋಡ್ ಮಾಡಿ"  />
+                            <div className="sec-space-small"></div>
+                        </div>
                         <div className="col-md-6">
                             <div className="sec-space-small"></div>
                             <OrderList name="GOVT. ಆದೇಶಗಳು 01" url={Odone} view="ನೋಟ" download="ಡೌನ್ಲೋಡ್ ಮಾಡಿ"  />

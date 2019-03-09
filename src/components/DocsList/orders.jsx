@@ -1,7 +1,5 @@
 import React from 'react'
 import '../DocsList/orders.scss'
-import { Link } from 'gatsby'
-import { LanguageConsumer } from '../../Context/context';
 
 const Orders = (props) => {
 

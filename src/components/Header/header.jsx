@@ -7,9 +7,46 @@ import imminister from '../../images/misister.png'
 import imhdk from '../../images/H.D.Kumaraswamy-CM.png'
 import imka from '../../images/ka.svg'
 import imen from '../../images/en.svg'
+import impar from '../../images/parameshwar.png'
+import impriank from '../../images/priyank.png'
 
 
 class Header extends Component {
+
+    state = {
+        minSlideImg: imhdk,
+        slideList: [imhdk, impar, impriank]
+    }
+    
+    
+    
+
+    componentDidMount() {
+        let i = 0;
+        let list = [...this.state.slideList]
+
+    
+
+        this.interval = setInterval(() => { 
+                   
+            this.setState({
+                minSlideImg: list[i]
+            })
+
+            if(list.length-1 === i){
+                i = 0;
+            } else{
+                i++;
+            }
+
+           
+    }, 3000)
+
+    }
+
+    componentWillUnmount() {
+        clearInterval(this.interval);
+    }
 
     render() {
      
@@ -32,7 +69,7 @@ class Header extends Component {
                             <img src={imminister} alt=""/>
                         </div>
                         <div className="member">
-                            <img src={imhdk} alt=""/>
+                            <img src={this.state.minSlideImg} alt=""/>
                         </div>
                     </div>
                 </div>
@@ -49,8 +86,22 @@ class Header extends Component {
                                 <li>
                                     <Link to="#about">About</Link>
                                 </li>
-                                <li>
+                                <li className="dropdown">
                                     <Link to="/schemes">Schemes</Link>
+                                    <ul className="secondary-list">
+                                        <li>
+                                            <Link to="/schemes">Scheme One</Link>
+                                        </li>
+                                        <li>
+                                            <Link to="/">Scheme Two</Link>
+                                        </li>
+                                        <li>
+                                            <Link to="/gallery">Scheme Three</Link>
+                                        </li>
+                                        <li>
+                                            <Link to="/contact">Scheme Four</Link>
+                                        </li>
+                                    </ul>
                                 </li>
                                 <li>
                                     <Link to="/board-of-directors">Board of Directors</Link>

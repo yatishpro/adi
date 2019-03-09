@@ -1,6 +1,6 @@
 import React from 'react'
 
-import headerBm from '../../images/header-bottom.svg'
+import headerBm from '../../images/header-bottom1.svg'
 
 
 const headerBottom = () => {

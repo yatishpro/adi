@@ -20,7 +20,9 @@ const RtiPage = () => {
                         <div className="row">
                             <div className="col-md-12">
                                 <div className="rti-intro">
+                                <p>
                                 ನಾಗರಿಕರಿಗೆ ಮಾಹಿತಿ ಹಕ್ಕುಗಳ ಪ್ರಾಯೋಗಿಕ ಆಡಳಿತವನ್ನು ಸಿದ್ಧಪಡಿಸಲು" ಮತ್ತು 2002 ರ ಹಿಂದಿನ ಸ್ವಾತಂತ್ರ್ಯದ ಅಧಿನಿಯಮವನ್ನು ಬದಲಿಸಲು "ಭಾರತದ ಸಂಸತ್ತಿಗೆ ಒಂದು ಕಾಯಿದೆಯಲ್ಲಿ ಮಾಹಿತಿ ಹಕ್ಕು (ಆರ್ಟಿಐ)". ಈ ಕಾನೂನು ಸಂಸತ್ತು ಜೂನ್ 15 ರಂದು ಅಂಗೀಕರಿಸಿತು. 2005 ಮತ್ತು 12 ಅಕ್ಟೋಬರ್ 2005 ರಂದು ಸಂಪೂರ್ಣವಾಗಿ ಜಾರಿಗೆ ಬಂದಿತು
+                                </p>
                                 </div>
                                 <div className="sec-space-small"></div>
                                 <div className="rti-form">
@@ -49,6 +51,11 @@ const RtiPage = () => {
                                                 <OrderList name="GOVT. ಆದೇಶಗಳು 02" url={Odtwo} view="ನೋಟ" download="ಡೌನ್ಲೋಡ್ ಮಾಡಿ"  />
                                                 <OrderList name="GOVT. ಆದೇಶಗಳು 03" url={Odthree} view="ನೋಟ" download="ಡೌನ್ಲೋಡ್ ಮಾಡಿ"  />
                                             </div>
+                                            <div className="col-md-6">
+                                                <OrderList name="GOVT. ಆದೇಶಗಳು 01" url={Odone} view="ನೋಟ" download="ಡೌನ್ಲೋಡ್ ಮಾಡಿ" />
+                                                <OrderList name="GOVT. ಆದೇಶಗಳು 02" url={Odtwo} view="ನೋಟ" download="ಡೌನ್ಲೋಡ್ ಮಾಡಿ"  />
+                                                <OrderList name="GOVT. ಆದೇಶಗಳು 03" url={Odthree} view="ನೋಟ" download="ಡೌನ್ಲೋಡ್ ಮಾಡಿ"  />
+                                            </div>
                                         </div>
 
                                     </div>
@@ -72,7 +79,9 @@ const RtiPage = () => {
                         <div className="row">
                             <div className="col-md-12">
                                 <div className="rti-intro">
+                                <p>
                                     Right to Information (RTI) in an Act to the Parliament of India "to provide for setting out the practical regime of right to information for citizens" and replaces the erstwhile Freedom of information Act, 2002. This law was passed by Parliament on 15 June 2005 and came fully into force on 12 October 2005
+                                </p>
                                 </div>
                                 <div className="sec-space-small"></div>
                                 <div className="rti-form">
@@ -96,6 +105,11 @@ const RtiPage = () => {
                                         <h1 className="title">RTI Application Forms</h1>
                                         <div className="sec-space"></div>
                                         <div className="row">
+                                            <div className="col-md-6">
+                                                <OrderList name="GOVT. Orders 01" url={Odone} view="view" download="download" />
+                                                <OrderList name="GOVT. Orders 02" url={Odtwo} view="view" download="download"  />
+                                                <OrderList name="GOVT. Orders 03" url={Odthree} view="view" download="download"  />
+                                            </div>
                                             <div className="col-md-6">
                                                 <OrderList name="GOVT. Orders 01" url={Odone} view="view" download="download" />
                                                 <OrderList name="GOVT. Orders 02" url={Odtwo} view="view" download="download"  />
