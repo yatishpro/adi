@@ -19,7 +19,7 @@ const ContactPage = () => {
 
                             <div className="address">
                                 <h3 className="address-head">ಕಾರ್ಪೊರೇಷನ್ ವಿಳಾಸ</h3>
-                                <p>ಕರ್ನಾಟಕ ಆದಿ ಜಂಬವ ಅಭಿವೃದ್ಧಿ ನಿಗಮ, 2 ನೇ
+                                <p className="kannada">ಕರ್ನಾಟಕ ಆದಿ ಜಂಬವ ಅಭಿವೃದ್ಧಿ ನಿಗಮ, 2 ನೇ
                                     ಮಹಡಿ ಡಾ. ಬಾಬು ಜಗ್ಜೀವನ್ ರಾಮ್ ಲಿಡ್ಕರ್ ಭವನ, ಮಿಲ್ಲರ್ ಟ್ಯಾಂಕ್ ಬಂಡ್ ರಸ್ತೆ
                                     ಯುನಿಐ ಬಿಲ್ಡಿಂಗ್ ಎದುರು, ವಸಂತ್ ನಗರ, ಬೆಂಗಳೂರು -52
                                 </p>
@@ -43,7 +43,7 @@ const ContactPage = () => {
 
                             <div className="address">
                                 <h3 className="address-head">ಕಚೇರಿ ಸಮಯ</h3>
-                                <p> 
+                                <p className="kannada"> 
                                 ಸೋಮವಾರದಿಂದ ಶನಿವಾರ 10.00 ರಿಂದ 5.30 ರವರೆಗೆ
                                 </p>
                             </div>
