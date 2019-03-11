@@ -1,12 +1,11 @@
 import React from 'react'
 import Auxs from '../hoc/Auxs/auxs'
-import HeaderBottom from '../components/Header-Bottom/headerBottom'
+import PageTitle from '../components/Page-Title/pageTitle'
 
 const BoardOfDirectorsPage = () => {
     return(
         <Auxs>
-             <HeaderBottom></HeaderBottom>
-            <h2>Board Of Directors</h2>
+            <PageTitle>Board Of Directors</PageTitle>
         </Auxs>
     )
 }

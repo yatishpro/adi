@@ -52,6 +52,10 @@ class Header extends Component {
 
 
     
+    headerHomeStyle = {
+        backgroundColor: 'unset'
+    }
+
 
     KannadaTemplate(){
 
@@ -70,7 +74,7 @@ class Header extends Component {
         }
 
         return(
-            <header>
+            <header style={this.headerHomeStyle} >
                 <div className="top-bar">
                     <div className="logo">
                         <Link to="/">
@@ -148,10 +152,6 @@ class Header extends Component {
                 </div>
             </header>
         )
-    }
-
-    headerHomeStyle = {
-        backgroundColor: 'unset'
     }
 
 
