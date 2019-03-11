@@ -74,8 +74,8 @@ const ContactPage = () => {
                                 <div className="address">
                                     <h3 className="address-head">Corporation Address</h3>
                                     <p>Karnataka Adi Jambava Development Corporation, 2nd
-                                        Floor Dr.Babu Jagjivan Ram Lidkar Bhavan, Miller Tank Bund Road
-                                        opposite UNI Building, Vasant Nagar, Bangalore-52
+                                        Floor, Dr.Babu Jagjivan Ram, Lidkar Bhavan, Miller Tank Bund Road,
+                                        Opposite UNI Building, Vasant Nagar, Bangalore-52
                                     </p>
                                 </div>
 
