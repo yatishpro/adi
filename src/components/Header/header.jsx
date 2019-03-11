@@ -5,7 +5,6 @@ import logo from '../../images/logo.png'
 import imbrambedkar from '../../images/Dr.B-R-Ambedkar.png'
 import imminister from '../../images/1.png'
 import imhdk from '../../images/H.D.Kumaraswamy-CM.png'
-import headerBg from '../../images/header.svg'
 import impar from '../../images/parameshwar.png'
 import impriank from '../../images/priyank.png'
 import Axus from '../../hoc/Auxs/auxs'
@@ -122,7 +121,7 @@ class Header extends Component {
                                             <Link className="kannada" to="/samruddhi-scheme">ಸಮೃದ್ಧಿ ಯೋಜನೆ</Link>
                                         </li>
                                         <li>
-                                            <Link className="kannada" to="/prerna-schmem">ಪ್ರೇರಣಾ ಯೋಜನೆ</Link>
+                                            <Link className="kannada" to="/prerna-scheme">ಪ್ರೇರಣಾ ಯೋಜನೆ</Link>
                                         </li>
                                     </ul>
                                 </li>
