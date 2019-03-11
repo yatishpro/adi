@@ -1,7 +1,13 @@
 .home-page{
     .about-adijambava{
         text-align: center;
-
+        justify-content: center;
+        width: 80%;
+        margin: 0 auto;
+        p{
+            text-align: justify;
+            text-align-last: center;
+        }
     }
     .vidhansouha{
         text-align: center;

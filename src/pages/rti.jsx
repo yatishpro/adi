@@ -1,6 +1,5 @@
 import React from 'react'
 import Auxs from '../hoc/Auxs/auxs'
-import HeaderBottom from '../components/Header-Bottom/headerBottom'
 import { LanguageConsumer } from '../Context/context'
 import PageTitle from '../components/Page-Title/pageTitle'
 import OrderList from '../components/DocsList/orders'
@@ -13,16 +12,14 @@ const RtiPage = () => {
     function KannadaTemplate() {
         return(
             <Auxs>
-                <HeaderBottom></HeaderBottom>
-                <PageTitle>RTI</PageTitle>
+               <div className="sec-space"></div>
+                <PageTitle>ಮಾಹಿತಿ ಹಕ್ಕು</PageTitle>
                 <main className="rti-content">
                     <div className="container">
                         <div className="row">
                             <div className="col-md-12">
                                 <div className="rti-intro">
-                                <p>
-                                ನಾಗರಿಕರಿಗೆ ಮಾಹಿತಿ ಹಕ್ಕುಗಳ ಪ್ರಾಯೋಗಿಕ ಆಡಳಿತವನ್ನು ಸಿದ್ಧಪಡಿಸಲು" ಮತ್ತು 2002 ರ ಹಿಂದಿನ ಸ್ವಾತಂತ್ರ್ಯದ ಅಧಿನಿಯಮವನ್ನು ಬದಲಿಸಲು "ಭಾರತದ ಸಂಸತ್ತಿಗೆ ಒಂದು ಕಾಯಿದೆಯಲ್ಲಿ ಮಾಹಿತಿ ಹಕ್ಕು (ಆರ್ಟಿಐ)". ಈ ಕಾನೂನು ಸಂಸತ್ತು ಜೂನ್ 15 ರಂದು ಅಂಗೀಕರಿಸಿತು. 2005 ಮತ್ತು 12 ಅಕ್ಟೋಬರ್ 2005 ರಂದು ಸಂಪೂರ್ಣವಾಗಿ ಜಾರಿಗೆ ಬಂದಿತು
-                                </p>
+                                    <p className="kannada">ಕರ್ನಾಟಕ ಸರ್ಕಾರವು ಪರಿಶಿಷ್ಟ ಜಾತಿ ಮತ್ತು ಪರಿಶಿಷ್ಟ ವರ್ಗಗಳ ಆರ್ಥಿಕ ಮತ್ತು ಸಾಮಾಜಿಕ ಅಭಿವೃದ್ದಿಗಾಗಿ "ಕರ್ನಾಟಕ ಪರಿಶಿಷ್ಟ ಜಾತಿ ಮತ್ತು ಪರಿಶಿಷ್ಟ ವರ್ಗಗಳ ಅಭವೃದ್ದಿ ನಿಗಮ " ವನ್ನು 1975ನೇ ಸಾಲಿನಲ್ಲಿ ಸ್ಥಾಪಿಸಲಾಯಿತು.ನಿಗಮವು 1956ರ ಕಂಪನಿ ಕಾಯ್ದೆಯಡಿ ಸ್ಥಾಪಿಸಲಾಯಿತು.ನಂತರ ನಿಗಮವನ್ನು 13.10.2005ರಲ್ಲಿ "ಡಾ: ಬಿ. ಆರ್. ಅಂಬೇಡ್ಕರ್ ಅಭಿವೃದ್ದಿ ನಿಗಮ" ಎಂದು ಮರು ನಾಮಕರಣ ಮಾಡಲಾಯಿತು.</p>
                                 </div>
                                 <div className="sec-space-small"></div>
                                 <div className="rti-form">
@@ -72,16 +69,14 @@ const RtiPage = () => {
     function EnglishTemplate() {
         return(
             <Auxs>
-                <HeaderBottom></HeaderBottom>
+               <div className="sec-space"></div>
                 <PageTitle>RTI</PageTitle>
                 <main className="rti-content">
                     <div className="container">
                         <div className="row">
                             <div className="col-md-12">
                                 <div className="rti-intro">
-                                <p>
-                                    Right to Information (RTI) in an Act to the Parliament of India "to provide for setting out the practical regime of right to information for citizens" and replaces the erstwhile Freedom of information Act, 2002. This law was passed by Parliament on 15 June 2005 and came fully into force on 12 October 2005
-                                </p>
+                                    <p>The Karnataka Scheduled Castes & Scheduled Tribes Development Corporation was established by the Government of Karnataka in 1975 with the vowed objective of bringing the SCs & STs population above the poverty-line.The Corporation was incorporated under the Companies Act of 1956. The Corporation was renamed as Dr. B.R.Ambedkar Development Corporation Limited on 13-10-2005.</p>
                                 </div>
                                 <div className="sec-space-small"></div>
                                 <div className="rti-form">

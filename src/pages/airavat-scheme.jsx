@@ -1,6 +1,5 @@
 import React from 'react'
 import Auxs from '../hoc/Auxs/auxs'
-import HeaderBottom from '../components/Header-Bottom/headerBottom'
 import { LanguageConsumer } from '../Context/context'
 import Iconbox from '../components/Icon-Box/iconbox'
 import carImg from '../images/car1.jpg'
@@ -28,7 +27,7 @@ const SchemesPage = () => {
     function KannadaTemplate() {
         return(
             <Auxs>
-                <HeaderBottom></HeaderBottom>
+                <div className="sec-space"></div>
                 <main className="schemes">
                     <div className="container">
                         <div className="row">
@@ -40,8 +39,10 @@ const SchemesPage = () => {
                             <div className="col-md-8">
                                 <div className="content">
                                     <h3 className="title">ಐರಾವತ</h3>
-                                    <p>ಪರಿಶಿಷ್ಟ ಜಾತಿ ನಿರುದ್ಯೋಗಿಗಳು, ಪರವಾನಗಿ ಹೊಂದಿದ ಯುವತಿಯರು ಸಣ್ಣ ಮೋಟಾರು ವಾಹನ ಪರವಾನಗಿ ಹೊಂದಿದ್ದು, ತೆರಿಗೆದಾರರಿಗೆ "ನೀರಾವರಿ ಯೋಜನೆ" ಯ ಮಾಲೀಕರಾಗಿ <b> "ಓಲಾ" / "ಉಬರ್" ಸಂಸ್ಥೆಗಳ ಸಹಯೋಗದೊಂದಿಗೆ ಮಾಡುತ್ತಾರೆ. </b> ಕರ್ನಾಟಕ ರಾಜ್ಯವು ಅಂತಾರಾಷ್ಟ್ರೀಯ ಪ್ರವಾಸಿ ತಾಣವಾಗಿ ಮತ್ತು ಈ ಯೋಜನೆಗೆ ಹೆಚ್ಚಿನ ಬೇಡಿಕೆ ಇದೆ.</p>
-                                    <p>ಕಾಂಪೊನೆಂಟ್ ವೆಚ್ಚ: ಯೋಜನೆಯು <b> 50% / ಪ್ರಾಜೆಕ್ಟ್ಗೆ 5.00 ಲಕ್ಷದ ಗರಿಷ್ಠ ಮೊತ್ತದವರೆಗೆ ನಿಗಮದಿಂದ ಸಬ್ಸಿಡಿ ಮಾಡಲಾಗುವುದು. </b> ಉಳಿದಿರುವ <b> 50% </ b> ಅನ್ನು ಅನುಷ್ಠಾನಗೊಳಿಸಲಾಗುತ್ತದೆ. ಬ್ಯಾಂಕ್ / ಹಣಕಾಸು ಸಂಸ್ಥೆ / ಫಲಾನುಭವಿ ಸಬ್ಸಿಡಿ.</p>
+                                    <p className="kannada"><b>(ವಾಹನ ಚಾಲನಾ ಪರವಾನಗಿ ಹೊಂದಿರುವ ಪರಿಶಿಷ್ಟ ಜಾತಿ ನಿರುದ್ಯೋಗಿಗಳಿಗೆ ವಾಹನ 
+ಸೌಲಭ್ಯ ಯೋಜನೆ)</b></p>
+                                    <p className="kannada">ಲಘು ವಾಹನ ಚಾಲನಾ ಪರವಾನಿಗಿ ಹೊಂದಿರುವ ಪರಿಶಿಷ್ಟ ಜಾತಿಯ ನಿರುದ್ಯೋಗಿ ವಿಧ್ಯಾವಂತ ಯುವಕ/ ಯುವತಿಯರಿಗೆ ಪ್ರವಾಸಿ ಟ್ಯಾಕ್ಸಿಗಳ ಮಾಲೀಕರನ್ನಾಗಿ ಮಾಡಿ “ಓಲಾ”/“ಉಬರ್” ಸಂಸ್ಥೆಗಳ ಸಹಯೋಗದಲ್ಲಿ ಅತಿ ಹೆಚ್ಚು ಆದಾಯ ಪಡೆಯುವ “ಐರಾವತ ಯೋಜನೆ” ಅನುಷ್ಟಾನಗೊಳಿಸಲು ಉದ್ದೇಶಿಸಿದೆ. ಕರ್ನಾಟಕ ರಾಜ್ಯ ಅಂತರಾಷ್ಟ್ರೀಯ ಮಟ್ಟದ ಪ್ರವಾಸಿಗರ ತಾಣವಾಗಿದ್ದು, ಈ ಯೋಜನೆಗೆ ಹೆಚ್ಚಿನ ಬೇಡಿಕೆ ಇರುತ್ತದೆ.</p>
+                                    <p className="kannada">ಘಟಕ ವೆಚ್ಚ : ಈ ಯೋಜನೆಗೆ ಘಟಕ ವೆಚ್ಚದ ಶೇ:50ರಷ್ಟು / ಗರಿಷ್ಟ ರೂ.5.00 ಲಕ್ಷಗಳವರೆಗೆ ನಿಗಮದಿಂದ ಸಹಾಯಧನ ಒದಗಿಸಲಾಗುವುದು. ಉಳಿದ ಶೇ:50ರಷ್ಟು ಭಾಗ ಬ್ಯಾಂಕ್/ಹಣಕಾಸು ಸಂಸ್ಥೆ/ಫಲಾನುಭವಿಯ ವಂತಿಕೆಯಿಂದ ಭರಿಸಿ ಯೋಜನೆಯನ್ನು ಅನುಷ್ಟಾನ ಮಾಡಲಾಗುವುದು.</p>
                                 </div>
                             </div> 
                         </div>
@@ -75,12 +76,12 @@ const SchemesPage = () => {
                                             <div className="common-content">
                                                 <h2 className="title">ಸಾಮಾನ್ಯ ಅರ್ಹತೆ</h2>
                                                 <ul>
-                                                    <li>ಅರ್ಜಿದಾರರು ಪರಿಶಿಷ್ಟ ಜಾತಿಗೆ ಸೇರಿರಬೇಕು.</li>
-                                                    <li>ಕರ್ನಾಟಕ ರಾಜ್ಯ ನಿವಾಸಿ.</li>
-                                                    <li>ಅರ್ಜಿದಾರರು 21 ವರ್ಷದಿಂದ 50 ವರ್ಷ ವಯಸ್ಸಿನವರಾಗಿರಬೇಕು.</li>
-                                                    <li>ಬೆಳಕಿನ ವಾಹನ ಪರವಾನಗಿ ಇರಬೇಕು.</li>
-                                                    <li>ಅರ್ಜಿದಾರರ ಕುಟುಂಬದ ವಾರ್ಷಿಕ ಆದಾಯ ರೂ. 50,000 / -.</li>
-                                                    <li>ಅರ್ಜಿದಾರ / ಕುಟುಂಬದ ಯಾವುದೇ ಸದಸ್ಯರು ಹಿಂದೆ ರೂ. 1,00,000 / - ಕಾರ್ಪೊರೇಷನ್ / ಸರ್ಕಾರದಿಂದ, ಅಂತಹ ಫಲಾನುಭವಿಗಳು ಈ ಸೌಲಭ್ಯಕ್ಕೆ ಅರ್ಹರಾಗುವುದಿಲ್ಲ.</li>
+                                                    <li className="kannada">ಅರ್ಜಿದಾರರು ಪರಿಶಿಷ್ಟ ಜಾತಿಗೆ ಸೇರಿದವರಾಗಿರಬೇಕು.</li>
+                                                    <li className="kannada">ಕರ್ನಾಟಕ ರಾಜ್ಯದ ನಿವಾಸಿಯಾಗಿರಬೇಕು.</li>
+                                                    <li className="kannada">ಅರ್ಜಿದಾರರು 21 ವರ್ಷದಿಂದ 50 ವರ್ಷದವರೆಗಿನ ವಯೋಮಾನದವರಾಗಿರಬೇಕು.</li>
+                                                    <li className="kannada">ಲಘು ವಾಹನ ಚಾಲನಾ ಪರವಾನಗಿ ಹೊಂದಿರಬೇಕು.</li>
+                                                    <li className="kannada">ಅರ್ಜಿದಾರರ ಕುಟುಂಬದ ವಾರ್ಷಿಕ ವರಮಾನವು ರೂ.50,000/- ಮಿತಿಯೊಳಗಿರಬೇಕು.</li>
+                                                    <li className="kannada">ಅರ್ಜಿದಾರರು/ ಕುಟುಂಬದ ಅವಲಂಬಿತ ಯಾವುದೇ ಸದಸ್ಯರು ಈ ಹಿಂದೆ ನಿಗಮ/ ಸರ್ಕಾರದಿಂದ ರೂ.1,00,000/- ಮೇಲ್ಪಟ್ಟು ಸೌಲಭ್ಯ ಪಡೆದಿದ್ದಲ್ಲಿ, ಅಂತಹ ಫಲಾನುಭವಿಗಳು ಈ ಸೌಲಭ್ಯ ಪಡೆಯಲು ಅರ್ಹರಿರುವುದಿಲ್ಲ.</li>
                                                 </ul>
                                             </div>
                                         <div className="sec-space-big"></div>
@@ -96,10 +97,10 @@ const SchemesPage = () => {
                                 <div className="col-md-8">
                                 <div className="sec-space-big"></div>
                                     <div className="conditions">
-                                        <h3 className="title">ನಿಯಮಗಳು</h3>
+                                        <h3 className="title">ನಷರತ್ತುಗಳು</h3>
                                         <ol>
-                                            <li>ಸೌಲಭ್ಯವನ್ನು ಪಡೆಯಲು "Ola" / "Uber" / "Meru" ಕಂಪನಿಗಳೊಂದಿಗೆ ಸಂಬಂಧ ಹೊಂದಲು ನಿಮಗೆ ಸಾಧ್ಯವಾಗುತ್ತದೆ</li>
-                                            <li>ಆಯ್ಕೆ ಸಮಿತಿಯಿಂದ ಅಭ್ಯರ್ಥಿಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಬೇಕು. ಆಯ್ದ ಫಲಾನುಭವಿ ಟ್ಯಾಕ್ಸಿ ಫಾರ್ಮ್ ಓಲಾ / ಉಬರ್ ಅನ್ನು ಯಶಸ್ವಿಯಾಗಿ ನಿರ್ವಹಿಸಲು ಜ್ಞಾನ ರಿಸೀಟ್ಟ್ ಪ್ರೋಗ್ರಾಂಗೆ ಹಾಜರಾಗಬೇಕು</li>
+                                            <li className="kannada">“ಓಲಾ”/ “ಉಬರ್”/ “ಮೇರು” ಸಂಸ್ಥೆಗಳೊಂದಿಗೆ ಟೈ-ಅಪ್ ಮಾಡಿಕೊಂಡು  ಸೌಲಭ್ಯ ಪಡೆಯಲು ಬದ್ದರಿರಬೇಕು.</li>
+                                            <li className="kannada">ಅರ್ಜಿದಾರರು ಆಯ್ಕೆ ಸಮಿತಿಯಿಂದ ಆಯ್ಕೆಯಾಗಿರಬೇಕು. ಆಯ್ಕೆಯಾದ ಫಲಾನುಭವಿಯು ಓಲಾ/ ಉಬರ್/ ಮೇರು ಸಂಸ್ಥೆಯಿಂದ ಟ್ಯಾಕ್ಸಿಯನ್ನು ಯಶಸ್ವಿಯಾಗಿ ನಿರ್ವಹಿಸುವ ಬಗ್ಗೆ ಜ್ಞಾನವನ್ನು ಪಡೆಯುವ ಕಾರ್ಯಕ್ರಮಕ್ಕೆ ಹಾಜರಾಗಬೇಕು.</li>
                                         </ol>
                                     </div>
                                 </div>
@@ -122,7 +123,7 @@ const SchemesPage = () => {
     function EnglishTemplate() {
         return(
             <Auxs>
-                <HeaderBottom></HeaderBottom>
+                <div className="sec-space"></div>
                 <main className="schemes">
                     <div className="container">
                         <div className="row">
@@ -134,8 +135,9 @@ const SchemesPage = () => {
                             <div className="col-md-8">
                                 <div className="content">
                                     <h3 className="title">Airavat Plan</h3>
-                                    <p>The Scheduled Caste unemployed, licenced young ladies who have a small motor vehicle licence make the taxpayers the owner of the "irrigation scheme" in collaboration with <b>"Ola" / "Uber" organizations.</b> Karnataka State is an international tourist destination and has a high demand for this project.</p>
-                                    <p>Component Cost: The scheme will be subsidized by the corporation for up to <b>50% / maximium of Rs.5.00 lakhs for the project.</b> The remainig <b>50%</b> will be implemented by the bank / financial institution / beneficiary subsidy.</p>
+                                    <p><b>(Vehicle facility scheme	 for Scheduled Caste Unemployed Individuals with  Vehicle Licenses)</b></p>
+                                    <p>The Scheduled Caste unemployed, licensed young men and women who have a small motor vehicle licenses will be made  owners of the tourist taxi in collaboration with <b>"Ola" / "Uber"</b> organization, which helps them increase their earning capabilities. Karnataka State is an international tourist destination and has a high demand for this project.</p>
+                                    <p>Component Cost: The scheme will be subsidized by the corporation for up to 50% / maximum of Rs.5.00 lakhs for the project. The remaining 50% will be implemented by the bank / financial institution / beneficiary subsidy.</p>
                                 </div>
                             </div> 
                         </div>
@@ -170,11 +172,11 @@ const SchemesPage = () => {
                                                 <h2 className="title">Common Eligibility</h2>
                                                 <ul>
                                                     <li>Applicants must belong to the Scheduled Castes.</li>
-                                                    <li>The resident of Karnataka State.</li>
+                                                    <li>Must be the resident of Karnataka State.</li>
                                                     <li>Applicants must be 21 years to 50 years of age.</li>
-                                                    <li>Must have a light vehicle licence.</li>
-                                                    <li>The annual income of the applicant's family should be within Rs. 50,000 /-.</li>
-                                                    <li>If any member of the applicant / family is previously entitled to Rs. 1,00,000 /- from the Corporation / Government, such beneficiaries are no eligible for this facility.</li>
+                                                    <li>Must have a light vehicle license.</li>
+                                                    <li>The annual income of the applicant's family should be within Rs. 50,000 / -.</li>
+                                                    <li>If any member of the applicant / family is previously entitled to Rs.1,00,000 / - from the Corporation / Government, such beneficiaries are not eligible for this facility.</li>
                                                 </ul>
                                             </div>
                                         <div className="sec-space-big"></div>

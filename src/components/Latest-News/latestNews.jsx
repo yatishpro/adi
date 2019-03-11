@@ -9,10 +9,8 @@ const LatestNews = () => {
             </div>
             <div className="latest-news-list">
                 <marquee width="100%" direction="left">
-                    <span>First News consectetur adipisicing elit. Quasi, suscipit.</span>
-                    <span>Second News consectetur adipisicing elit. Quasi, suscipit.</span>
-                    <span>Third News consectetur adipisicing elit. Quasi, suscipit.</span>
-                    <span>Four News consectetur adipisicing elit. Quasi, suscipit.</span>
+                    <span><a href="https://www.deccanherald.com/state/cm-launches-adi-jambava-713590.html" target="_blank">CM launches Adi Jambava Corporation</a></span>
+                    <span><a href="https://www.deccanherald.com/state/cm-launches-adi-jambava-713590.html" target="_blank" href="">Chief Minister H D Kumaraswamy said that "The government would ensure justice to the Adi Jambava community."</a></span>
                 </marquee>
             </div>
         </div>

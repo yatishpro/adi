@@ -49,15 +49,43 @@ menuHandler = () => {
   })
 };
 
-languageChangeHandler = (lang) => {
-  this.setState({
-    language: lang
-  })
+languageTogller = () => {
+ 
+  if(this.state.language === 'english'){
 
-  var language = window.localStorage.getItem('lang');
-  if(language !== null){
-    window.localStorage.setItem('lang', lang);
+    this.setState({
+      language: 'kannada'
+    })
+
+    var language = window.localStorage.getItem('lang');
+    if(language !== null){
+      window.localStorage.setItem('lang', 'kannada');
+    } else{
+      window.localStorage.setItem('lang', 'kannada');
+    }
+
+  } 
+  
+  
+  if (this.state.language === 'kannada') {
+
+    this.setState({
+      language: 'english'
+    })
+
+    var language = window.localStorage.getItem('lang');
+    if(language !== null){
+      window.localStorage.setItem('lang', 'english');
+    } else{
+      window.localStorage.setItem('lang', 'kannada');
+    }
+
   }
+ 
+  
+
+
+ 
 }
 
 
@@ -65,7 +93,7 @@ languageChangeHandler = (lang) => {
     return(
       <LanguageProvider value={{ language: this.state.language}}>
 
-      <Header lang={this.state.language} menu={this.state.menu} languageHandler={this.languageChangeHandler} menuHandler={this.menuHandler} />
+      <Header lang={this.state.language} menu={this.state.menu}  languageTogle={this.languageTogller} menuHandler={this.menuHandler} />
       <LatestNews/>
       <main>{this.props.children}</main>
       <Footer/>

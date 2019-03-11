@@ -1,15 +1,15 @@
 import React from 'react'
 import Auxs from '../hoc/Auxs/auxs'
 import PageTitle from '../components/Page-Title/pageTitle'
-import HeaderBottom from '../components/Header-Bottom/headerBottom'
 import { LanguageConsumer } from '../Context/context'
+import GoogleMaps from '../components/GoogleMap/googlemap'
 
 const ContactPage = () => {
 
     function KannadaTemplate() {
         return(
         <Auxs>
-            <HeaderBottom></HeaderBottom>
+            <div className="sec-space"></div>
             <PageTitle>ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ</PageTitle>
             <div className="sec-space"></div>
             <main className="contact-page">
@@ -52,6 +52,9 @@ const ContactPage = () => {
                     </div>
                 </div>
             </main>
+            <div className="map">
+                    <GoogleMaps isMarkerShown></GoogleMaps>
+                </div>
             <div className="sec-space-small"></div>
         </Auxs>
         )
@@ -60,7 +63,7 @@ const ContactPage = () => {
     function EnglishTemplate() {
         return(
             <Auxs>
-                <HeaderBottom></HeaderBottom>
+                <div className="sec-space"></div>
                 <PageTitle>Contact Us</PageTitle>
                 <div className="sec-space"></div>
                 <main className="contact-page">
@@ -103,6 +106,9 @@ const ContactPage = () => {
                         </div>
                     </div>
                 </main>
+                <div className="map">
+                    <GoogleMaps isMarkerShown></GoogleMaps>
+                </div>
                 <div className="sec-space-small"></div>
             </Auxs>
         )

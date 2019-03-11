@@ -75,15 +75,10 @@ const IndexPage = () => {
               <div className="col-md-12">
                 <div className="about-adijambava">
                   <div className="sec-space-small"></div>
-                  <p>
-                  Dr. B R Ambedkar Development Corporation executing the project / program anustanagolisalu "adijambava Development Corporation of Karnataka" was passed to establish the order. The corporation's registration and other initiatives have been completed and the Hon'ble Chief Ministers will be launching a new corporation on 17-01-2019.
-                  </p>
-                  <p>
-                  The Karnataka Adi Jambava Development Corporation will exclusively implement Government / Schedule Schemes / programs for comprehensive development of the Scheduled Castes and Scheduled Tribes in the Scheduled Castes.
-                  </p>
-                  <p>
-                  The action plan for 2018-19 was sanctioned by the Ministry of Social Welfare, which has been allocated Rs 296.50 crore. The constituency targeted is based on population based on grants.The corporation hopes that the relatives of the Adiampa community must consolidate the new corporation projects and become economically and socially competitive.
-                  </p>
+                  <p>The Government has come up with various project benefits with the aim of providing social justice equally to the various castes in the prestigious caste list, and for this purpose the banjaara taanda development corporation was already established. In the same manner for the purpose of development of the bhoovi and vaddar community the “ Karnataka Bhoovi Development corporation” was established. And now in the interest of “Dr B R Ambedkar development corporation” an order has been issued that the “Karnataka Adijambava Development Corporation” is to be established for the enforcement of all projects and programmes for those in prestigious castes/schedule castes and other related castes. After the completion of the corporation's registration and other initiatives the Honourable Chief Minister will launch a new corporation on 17/01/2019.</p>
+                  <p>For the purpose of comprehensive development of the scheduled castes and other related castes the “Karnataka Adijambava Development Corporation” will take up the implementation of those projects/programmes assigned by the government.</p>
+                  <p>The action plan created by the social welfare department states that for the year 2018-2019 Rs 296.50 Crs grants are sanctioned from the department. The targeted area of ​​the assembly constituency is based on population based on grants.</p>
+                  <p>The corporation hopes that the relatives of the Adijambava community will be able to use the new corporation projects to become economically and socially viable.</p>
                 </div>
                 <div className="col-md-12">
                   <div className="vidhansouha">
@@ -166,9 +161,11 @@ const IndexPage = () => {
               <div className="col-md-12">
                 <div className="about-adijambava">
                   <div className="sec-space-small"></div>
-                  <p>
-                  ರಾಜ್ಯ ಸರ್ಕಾರ ಸಮಾಜ ಕಲ್ಯಾಣ ಇಲಾಖೆ ವತಿಯಿಂದ ಪರಿಶಿಷ್ಟ ಜಾತಿ/ಪರಿಶಿಷ್ಟ ಪಂಗಡ ಸಮುದಾಯದ ಯುವಕ/ಯುವತಿಯರ ಸಾಮಾಜಿಕ ಹಾಗೂ ಆರ್ಥಿಕ ಅಭಿವೃದ್ಧಿಯ ಮಹತ್ವಾಕಾಂಕ್ಷೆಯೊಂದಿಗೆ ದೇಶದಲ್ಲಿಯೇ ಬೃಹತ್ ಉದ್ಯಮಶೀಲತೆ ಸಾಧಿಸುವ ಸಮೃದ್ಧಿ ಯೋಜನೆಯನ್ನು ಜಾರಿಗೆ ತಂದಿದೆ. ಪ್ರತಿಷ್ಠಿತ ಬ್ರಾಂಡೆಡ್ ಕಂಪೆನಿಗಳು ಹಾಗೂ ಕಾರ್ಪೋರೆಟ್ ಉದ್ದಿಮೆಗಳ ಸಹಭಾಗಿತ್ವದಲ್ಲಿ ಕೈಗಾರಿಕಾ ತರಬೇತಿ, ವ್ಯಕ್ತಿತ್ವ ವಿಕಸನ, ಸಂವಹನ ತರಬೇತಿ. ಚಿಲ್ಲರೆ ಮಳಿಗೆಗಳ ನಿರ್ವಹಣೆ, ತೆರಿಗೆ ನೀತಿ ಮತ್ತು ಜಿ.ಎಸ್.ಟಿ, ದಾಸ್ತಾನು ನಿರ್ವಹಣೆಗಳ ಬಗ್ಗೆ ತರಬೇತಿ ನೀಡಲಿದೆ. ಸರ್ಕಾರವು ಮುಂದಿನ 3 ವರ್ಷದಲ್ಲಿ 2000 ಕೋಟಿ ರೂ ವೆಚ್ಚದಲ್ಲಿ ಗ್ರಾಮೀಣ ಪ್ರದೇಶ, ಎರಡನೇ ಹಾಗೂ ಮೂರನೇ ಶ್ರೇಣಿಯ ನಗರಗಳಲ್ಲಿ 25000 ಸ್ವಯಂ ಉದ್ಯೋಗ ಸೃಷ್ಟಿಸುವ ಗುರಿ ಹೊಂದಿದೆ.
-                  </p>
+                   <p className="kannada">ನಿಗಮದ ಕಾರ್ಯ ಚಟುವಟಿಕೆಗಳ ಸ್ಥೂಲ ಪರಿಚಯ
+ಸರ್ಕಾರದ ವಿವಿಧ ಯೋಜನೆಗಳ ಪ್ರಯೋಜನಗಳನ್ನು ಪರಿಶಿಷ್ಟ ಜಾತಿ ಪಟ್ಟಿಯಲ್ಲಿರುವ ವಿವಿಧ ಜಾತಿಗಳಿಗೆ ಸವiನಾಗಿ ದೊರಕಿಸಿಕೊಟ್ಟು ಸಾಮಾಜಿಕ ನ್ಯಾಯವನ್ನು ಒದಗಿಸುವ ಉದ್ದೇಶದಿಂದ ಈಗಾಗಲೇ ಬಂಜಾರ ಸಮುದಾಯಗಳಿಗೆ ತಾಂಡಾ ಅಭಿವೃದ್ಧಿ ನಿಗಮವನ್ನು ಸ್ಥಾಪಿಸಲಾಗಿದೆ.ಅದೇ ರೀತಿ ಭೋವಿ / ವಡ್ಡರ್ ಸಮುದಾಯಗಳ ಅಭಿವೃದ್ಧಿಗಾಗಿ ಕರ್ನಾಟಕ ಭೋವಿ ಅಭಿವೃದ್ಧಿ ನಿಗಮವನ್ನು ಸ್ಥಾಪಿಸಿದೆ.ಆದುದರಿಂದ ಪರಿಶಿಷ್ಟ ಜಾತಿಯಲ್ಲಿರುವ ಮಾದಿಗ ಮತ್ತು ಅದರ ಸಂಬಂಧಿಸಿದ ಜಾತಿಗಳಿಗೆ ಡಾ.ಬಿ.ಆರ್.ಅಂಬೇಡ್ಕರ್ ಅಭಿವೃದ್ಧಿ ನಿಗಮದಲ್ಲಿ ಜಾರಿಗೊಳಿಸುತ್ತಿರುವ ಎಲ್ಲಾ ಯೋಜನೆ/ಕಾರ್ಯಕ್ರಮಗಳನ್ನು ಅನುಷ್ಟಾನಗೊಳಿಸಲು “ಕರ್ನಾಟಕ ಆದಿಜಾಂಬವ ಅಭಿವೃದ್ಧಿ ನಿಗಮ” ವನ್ನು ಸ್ಥಾಪಿಸಲು ಆದೇಶ ಹೊರಡಿಸಲಾಗಿದೆ. ಈ ನಿಗಮದ ನೊಂದಾವಣೆ ಮತ್ತಿತರೆ ಪ್ರಾರಂಭಿಕ ಕೆಲಸಗಳು ಪೂರ್ಣಗೊಂಡಿದ್ದು ಸನ್ಮಾನ್ಯ ಮುಖ್ಯಮಂತ್ರಿಗಳು ದಿನಾಂಕ: 17-01-2019 ರಂದು ಹೊಸ ನಿಗಮವನ್ನು ಲೋಕಾರ್ಪಣೆ ಮಾಡಲಿದ್ದಾರೆ. </p>
+                  <p className="kannada">ಕರ್ನಾಟಕ ಆದಿಜಾಂಬವ ಅಭಿವೃದ್ಧಿ ನಿಗಮವು ಪ್ರತ್ಯೇಕವಾಗಿ ಪರಿಶಿಷ್ಟ ಜಾತಿಯಲ್ಲಿರುವ ಮಾದಿಗ ಮತ್ತು ಅದರ ಸಂಬಂಧಿಸಿದ ಜಾತಿಗಳ ಸಮಗ್ರ ಅಭಿವೃದ್ಧಿಗಾಗಿ ಸರ್ಕಾರ ವಹಿಸುವ/ನಿಗದಿಪಡಿಸುವ ಯೋಜನೆ/ಕಾರ್ಯಕ್ರಮಗಳನ್ನು ಅನುಷ್ಠಾನಗೊಳಿಸುವುದು.</p>
+                   <p className="kannada">2018-19 ನೇ ಸಾಲಿಗೆ ಕ್ರಿಯಾ ಯೋಜನೆ ರೂಪಿಸಿದ್ದು ಸಮಾಜ ಕಲ್ಯಾಣ ಇಲಾಖೆಯಿಂದ 296.50 ಕೋಟಿ ಅನುದಾನವನ್ನು ಮಂಜೂರು ಮಾಡಲಾಗಿದೆ. ಅನುದಾನಕ್ಕೆ ತಕ್ಕಂತೆ ಜನಸಂಖ್ಯೆ ಆಧಾರದ ಮೇಲೆ ವಿಧಾನಸಭಾ ಕ್ಷೇತ್ರಾವಾರು ಗುರಿ ನಿಗದಿಪಡಿಸಲಾಗಿದೆ.</p>
+                  <p className="kannada">ಆದಿಜಾಂಬವ ಸಮುದಾಯದ ಬಂಧುಗಳು ಹೊಸ ನಿಗಮದ ಯೋಜನೆಗಳ ಸಧ್ಬಳಕೆ ಮಾಡಿಕೊಂಡು ಆರ್ಥಿಕವಾಗಿ ಮತ್ತು ಸಾಮಾಜಿಕವಾಗಿ ಸಧೃಡರಾಗಬೇಕೆಂದು ನಿಗಮವು ಆಶಿಸುತ್ತದೆ.</p>
                 </div>
                 <div className="col-md-12">
                   <div className="vidhansouha">

@@ -3,10 +3,9 @@ import {Link} from 'gatsby'
 import  '../Header/header.scss'
 import logo from '../../images/logo.png'
 import imbrambedkar from '../../images/Dr.B-R-Ambedkar.png'
-import imminister from '../../images/misister.png'
+import imminister from '../../images/1.png'
 import imhdk from '../../images/H.D.Kumaraswamy-CM.png'
-import imka from '../../images/ka.svg'
-import imen from '../../images/en.svg'
+import headerBg from '../../images/header.svg'
 import impar from '../../images/parameshwar.png'
 import impriank from '../../images/priyank.png'
 import Axus from '../../hoc/Auxs/auxs'
@@ -51,7 +50,25 @@ class Header extends Component {
         clearInterval(this.interval);
     }
 
+
+    
+
     KannadaTemplate(){
+
+
+        if(typeof window !== 'undefined'){
+            if(window.location.pathname !== '/'){
+                this.headerHomeStyle = {
+                        backgroundColor: '#ea5353'
+                }
+                
+            } else{
+                this.headerHomeStyle = {
+                    backgroundColor: 'unset'
+            }
+            }
+        }
+
         return(
             <header>
                 <div className="top-bar">
@@ -86,49 +103,46 @@ class Header extends Component {
                             }}>
                             <ul className="primary-list">
                                 <li>
-                                    <Link to="#about">ಬಗ್ಗೆ</Link>
+                                    <Link className="kannada" to="#about">ಬಗ್ಗೆ</Link>
                                 </li>
                                 <li className="dropdown">
-                                    <Link to="/schemes">ಯೋಜನೆಗಳು</Link>
+                                    <a className="kannada">ಯೋಜನೆಗಳು</a>
                                     <ul className="secondary-list">
                                         <li>
-                                            <Link to="/schemes">ಯೋಜನೆಗಳು</Link>
+                                            <Link className="kannada" to="/airavat-scheme">ಐರಾವತ ಯೋಜನೆ</Link>
                                         </li>
                                         <li>
-                                            <Link to="/">ಯೋಜನೆಗಳು</Link>
+                                            <Link className="kannada" to="/unnati-scheme">ಉನ್ನತಿ ಯೋಜನೆ</Link>
                                         </li>
                                         <li>
-                                            <Link to="/gallery">ಯೋಜನೆಗಳು</Link>
+                                            <Link className="kannada" to="/samruddhi-scheme">ಸಮೃದ್ಧಿ ಯೋಜನೆ</Link>
                                         </li>
                                         <li>
-                                            <Link to="/contact">ಯೋಜನೆಗಳು</Link>
+                                            <Link className="kannada" to="/prerna-schmem">ಪ್ರೇರಣಾ ಯೋಜನೆ</Link>
                                         </li>
                                     </ul>
                                 </li>
                                 <li>
-                                    <Link to="/board-of-directors">ನಿರ್ದೇಶಕರ ಮಂಡಳಿ</Link>
+                                    <Link className="kannada" to="/board-of-directors">ನಿರ್ದೇಶಕರ ಮಂಡಳಿ</Link>
                                 </li>
                                 <li>
-                                    <Link to="/gallery">ಗ್ಯಾಲರಿ</Link>
+                                    <Link className="kannada" to="/gallery">ಗ್ಯಾಲರಿ</Link>
                                 </li>
                                 <li>
-                                    <Link to="/circulars">ಆದೇಶಗಳು / ಸರ್ಕ್ಯುಲರ್ಗಳು</Link>
+                                    <Link className="kannada" to="/circulars">ಆದೇಶಗಳು / ಸರ್ಕ್ಯುಲರ್ಗಳು</Link>
                                 </li>
                                 <li>
-                                    <Link to="/rti">RTI</Link>
+                                    <Link className="kannada" to="/rti">ಮಾಹಿತಿ ಹಕ್ಕು</Link>
                                 </li>
                                 <li>
-                                    <Link to="/contact">ಸಂಪರ್ಕಿಸಿ</Link>
+                                    <Link className="kannada" to="/contact">ಸಂಪರ್ಕಿಸಿ</Link>
                                 </li>
                             </ul>
                         </div>
                     </div>
                     <div className="language-select">
-                        <div className={this.props.lang === 'kannada' ? 'kannada active' : 'kannada' } onClick={() => this.props.languageHandler('kannada')}>
-                        <img src={imka} alt=""/>
-                        </div>
-                        <div className={this.props.lang === 'english' ? 'english active' : 'english' } onClick={() => this.props.languageHandler('english')}>
-                            <img src={imen} alt=""/>
+                        <div className="language-switch"  onClick={() => this.props.languageTogle()}>
+                        <h5 className="language">English</h5>
                         </div>
                     </div>
                 </div>
@@ -136,9 +150,31 @@ class Header extends Component {
         )
     }
 
+    headerHomeStyle = {
+        backgroundColor: 'unset'
+    }
+
+
+
+
     EnglishTemplate(){
+
+
+        if(typeof window !== 'undefined'){
+            if(window.location.pathname !== '/'){
+                this.headerHomeStyle = {
+                        backgroundColor: '#ea5353'
+                }
+                
+            } else{
+                this.headerHomeStyle = {
+                    backgroundColor: 'unset'
+            }
+            }
+        }
+
         return(
-            <header>
+            <header style={this.headerHomeStyle} >
                 <div className="top-bar">
                     <div className="logo">
                         <Link to="/">
@@ -174,19 +210,19 @@ class Header extends Component {
                                     <Link to="#about">About</Link>
                                 </li>
                                 <li className="dropdown">
-                                    <Link to="/schemes">Schemes</Link>
+                                    <a>Schemes <i class="fa fa-angle-down"></i></a>
                                     <ul className="secondary-list">
                                         <li>
-                                            <Link to="/schemes">Scheme One</Link>
+                                            <Link to="/airavat-scheme">Airavat Scheme</Link>
                                         </li>
                                         <li>
-                                            <Link to="/">Scheme Two</Link>
+                                            <Link to="/unnati-scheme">Unnati Scheme</Link>
                                         </li>
                                         <li>
-                                            <Link to="/gallery">Scheme Three</Link>
+                                            <Link to="/samruddhi-scheme">Samruddhi Scheme</Link>
                                         </li>
                                         <li>
-                                            <Link to="/contact">Scheme Four</Link>
+                                            <Link to="/prerna-scheme">Prerna Scheme</Link>
                                         </li>
                                     </ul>
                                 </li>
@@ -209,11 +245,8 @@ class Header extends Component {
                         </div>
                     </div>
                     <div className="language-select">
-                        <div className={this.props.lang === 'kannada' ? 'kannada active' : 'kannada' } onClick={() => this.props.languageHandler('kannada')}>
-                        <img src={imka} alt=""/>
-                        </div>
-                        <div className={this.props.lang === 'english' ? 'english active' : 'english' } onClick={() => this.props.languageHandler('english')}>
-                            <img src={imen} alt=""/>
+                        <div className="language-switch"  onClick={() => this.props.languageTogle()}>
+                        <h5 className="language">ಕನ್ನಡ</h5>
                         </div>
                     </div>
                 </div>

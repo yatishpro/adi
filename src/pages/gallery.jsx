@@ -1,6 +1,5 @@
 import React, {Component} from 'react'
 import Auxs from '../hoc/Auxs/auxs'
-import HeaderBottom from '../components/Header-Bottom/headerBottom'
 import { LanguageConsumer } from '../Context/context'
 import PageTitle from '../components/Page-Title/pageTitle'
 import gOne from '../images/gallery/01.jpg'
@@ -37,7 +36,7 @@ class Gallery extends Component {
       KannadaTemplate() {
         return(
             <Auxs>
-                <HeaderBottom></HeaderBottom>
+                <div className="sec-space"></div>
                 <PageTitle>ಗ್ಯಾಲರಿ</PageTitle>
                 <div className="container">
                     <div className="row">
@@ -66,7 +65,7 @@ class Gallery extends Component {
      EnglishTemplate() {
            return(
             <Auxs>
-                <HeaderBottom></HeaderBottom>
+                <div className="sec-space"></div>
                 <PageTitle>Gallery</PageTitle>
                 <div className="container">
                     <div className="row">

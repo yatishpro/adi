@@ -1,6 +1,5 @@
 import React from 'react'
 import Auxs from '../hoc/Auxs/auxs'
-import HeaderBottom from '../components/Header-Bottom/headerBottom'
 import PageTitle from '../components/Page-Title/pageTitle'
 import OrderList from '../components/DocsList/orders'
 import Odone from '../docs/P1.pdf'
@@ -16,7 +15,7 @@ const CircularsPage = () => {
         return(
             <Auxs>
                 
-                <HeaderBottom></HeaderBottom>
+                <div className="sec-space"></div>
                 <PageTitle>Orders / Circulars</PageTitle>
                 <div className="container">
                     <div className="row">
@@ -45,7 +44,7 @@ const CircularsPage = () => {
     function KannadaTemplate() {
         return(
             <Auxs>
-                <HeaderBottom></HeaderBottom>
+                <div className="sec-space"></div>
                 <PageTitle>ಆದೇಶಗಳು / ಸರ್ಕ್ಯುಲರ್ಗಳು</PageTitle>
                 <div className="container">
                     <div className="row">
