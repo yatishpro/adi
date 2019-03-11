@@ -176,3 +176,16 @@ header{
         width: 100%;
     }
 }
+
+.kannada{
+    font-family: 'Roboto';
+    font-weight: medium;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+a{
+    &.kannada{
+        font-size: 16px;
+    }
+}
